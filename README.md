@@ -1,4 +1,4 @@
-# magicslides-app
+# MagicSlides
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-magicslides-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://magicslides.app/
+MagicSlides is an AI-powered presentation creation platform that transforms user prompts, documents, or media into professional PowerPoint decks in seconds. Supporting over 136 languages, it offers features like slide cloning, PDF‑to‑PPT conversion, YouTube video integration, audio‑to‑slide, and Excel‑to‑chart automation. Users can choose from premium templates, customize designs, and export to PDF, PPTX, PNG, or HTML, with options for watermark‑free outputs and secure sharing. The service includes tiered subscription plans for individuals and enterprises, providing high‑volume presentation limits and advanced AI models for content generation.
+
+**Areas:** AI · Presentation · Automation · SaaS · Productivity
+
+## MagicSlides on APIs.io
+
+Everything profiled for MagicSlides is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/magicslides-app/](https://apis.io/providers/magicslides-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [MagicSlides Presentations API](https://apis.io/apis/magicslides-app/magicslides-app-presentations-api/) — Generate PPTX decks from any input.
+- [MagicSlides Studio API](https://apis.io/apis/magicslides-app/magicslides-app-studio-api/) — Designed decks built from Studio templates (used by the MagicSlides GPT).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MagicSlides Agentic Access](https://apis.io/agentic-access/magicslides-app/magicslides-app-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PresentationResult](https://apis.io/schemas/magicslides-app/magicslides-app-presentation-result/)
+- [Watermark](https://apis.io/schemas/magicslides-app/magicslides-app-watermark/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Magicslides App Context](https://apis.io/jsonld/magicslides-app/magicslides-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MagicSlides API Rules](https://apis.io/rules/magicslides-app/magicslides-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MagicSlides Authentication](https://apis.io/security/magicslides-app/magicslides-app-authentication/)
+- [MagicSlides Domain Security](https://apis.io/security/magicslides-app/magicslides-app-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [MagicSlides Plans Pricing](https://apis.io/plans/magicslides-app/magicslides-app-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [MagicSlides Rate Limits](https://apis.io/rate-limits/magicslides-app/magicslides-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://magicslides.app/)
+- [Documentation](https://www.magicslides.app/docs)
+- [Getting started](https://www.magicslides.app/docs-api/quick-start)
+- [API reference](https://www.magicslides.app/api)
+- [Pricing](https://www.magicslides.app/pricing)
+- [Support](https://www.magicslides.app/support)
+- [Changelog](https://www.magicslides.app/changelog)
+- [Blog](https://www.magicslides.app/blog)
+- [Terms of service](https://www.magicslides.app/terms-of-use)
+- [Privacy policy](https://www.magicslides.app/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 58.4** — strong · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 57.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 40.0 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 48.5 |
+
+**Agent readiness 56.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/magicslides-app/](https://apis.io/providers/magicslides-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MagicSlides: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/magicslides-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
